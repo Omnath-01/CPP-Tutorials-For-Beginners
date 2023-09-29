@@ -46,7 +46,9 @@ int main()
     return 0;
 }
 
-/* Properties of friend functions
+/* 
+Properties of friend functions
+
 1. Not in the scope of class
 2. since it is not in the scope of the class, it cannot be called from the object of that class. c1.sumComplex() == Invalid
 3. Can be invoked without the help of any object
